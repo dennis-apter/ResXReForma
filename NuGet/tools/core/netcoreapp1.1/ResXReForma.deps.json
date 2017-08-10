@@ -1,0 +1,144 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "3b50c501afe812a11f478e35d0e275b60625fe0d"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "resxreforma/1.0.0": {
+        "dependencies": {
+          "Microsoft.Build.Utilities.Core": "15.1.1012"
+        },
+        "runtime": {
+          "ResXReForma.dll": {}
+        }
+      },
+      "microsoft.build.framework/15.1.1012": {
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Build.Framework.dll": {}
+        }
+      },
+      "microsoft.build.utilities.core/15.1.1012": {
+        "dependencies": {
+          "Microsoft.Build.Framework": "15.1.1012",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Diagnostics.TraceSource": "4.0.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Runtime.Serialization.Xml": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Build.Utilities.Core.dll": {}
+        }
+      },
+      "system.collections.nongeneric/4.0.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "system.diagnostics.tracesource/4.0.0": {
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "system.private.datacontractserialization/4.1.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.1.1",
+          "System.Xml.XmlSerializer": "4.0.11"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "system.runtime.serialization.primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "system.runtime.serialization.xml/4.1.1": {
+        "dependencies": {
+          "System.Private.DataContractSerialization": "4.1.1",
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Xml.dll": {}
+        }
+      },
+      "system.xml.xmlserializer/4.0.11": {
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "resxreforma/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "microsoft.build.framework/15.1.1012": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZunLrX0LtzXfnFM7va7WqsOWFQ63jufIapUIpE/Y+nGZtOgQSJcprwp92Fyad3F0NhY3yJMwDXqZ6xzi/1pHcA==",
+      "path": "microsoft.build.framework/15.1.1012",
+      "hashPath": "microsoft.build.framework.15.1.1012.nupkg.sha512"
+    },
+    "microsoft.build.utilities.core/15.1.1012": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JeD4Rc0P3tqVhxhaaqOGrSqYgT7MA1GqhUaGwM09w/bFfiHdGw9qCGcIrVTTm3AMHXzGPhWiOaCxrq1KbjtMHQ==",
+      "path": "microsoft.build.utilities.core/15.1.1012",
+      "hashPath": "microsoft.build.utilities.core.15.1.1012.nupkg.sha512"
+    },
+    "system.collections.nongeneric/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9dh7sVucFvzBbxvpp2u5FWpgl6fGSSgTRAuL5k4XSjINAsD9g8KjGe9agrYO4YkWTc+jm1wGRGERKCQ/6WrWhw==",
+      "path": "system.collections.nongeneric/4.0.1",
+      "hashPath": "system.collections.nongeneric.4.0.1.nupkg.sha512"
+    },
+    "system.diagnostics.tracesource/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AUHJzR9x+X4jLnJbfWWMIOS2EQmoyISCaERO5V8YK0quOGy51ohNSQVVqX+w1cgQzhNSOuJ7td2wv7wnNT2Aaw==",
+      "path": "system.diagnostics.tracesource/4.0.0",
+      "hashPath": "system.diagnostics.tracesource.4.0.0.nupkg.sha512"
+    },
+    "system.private.datacontractserialization/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9yij1wvGVAVXbCAO800I0lVZfsJ2jtesZNm/nWnmqsPLXrT93hShLDxYh8/RXe9B6/Zxh2w3P/ndSpN7wBCrGQ==",
+      "path": "system.private.datacontractserialization/4.1.1",
+      "hashPath": "system.private.datacontractserialization.4.1.1.nupkg.sha512"
+    },
+    "system.runtime.serialization.primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Be+Em2XqsLIq48dy3USOVtbrs+92XJn2Q1AZAz8h1mULkotl3qDzsd475U868/4Z+2m+BP0tCy0JSppOtJXYcA==",
+      "path": "system.runtime.serialization.primitives/4.1.1",
+      "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
+    },
+    "system.runtime.serialization.xml/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JHp/ODPQ87/0f7EIkTTWP+W2env4pR5gXEkzJ2kIaU+IyxDJwmsKWEaTQwRi5+TlivsUGMpcLnlIjoutdptghw==",
+      "path": "system.runtime.serialization.xml/4.1.1",
+      "hashPath": "system.runtime.serialization.xml.4.1.1.nupkg.sha512"
+    },
+    "system.xml.xmlserializer/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TAfLltO6vawqNwer5DcVeownoXSOtFJeQzXjgEndlybuzVfqKKsp7KcHmItCtqvwFDsFcURLBGPPISgiwk1FkA==",
+      "path": "system.xml.xmlserializer/4.0.11",
+      "hashPath": "system.xml.xmlserializer.4.0.11.nupkg.sha512"
+    }
+  }
+}

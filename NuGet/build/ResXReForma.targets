@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="ResxReForma.ResxReFormaTask" AssemblyFile="..\tools\full\ResxReForma.dll" Condition=" '$(MSBuildRuntimeType)' != 'Core' "/>
+  <UsingTask TaskName="ResxReForma.ResxReFormaTask" AssemblyFile="..\tools\core\ResxReForma.dll" Condition=" '$(MSBuildRuntimeType)' == 'Core' "/>
+  <ItemGroup>
+    <PropertiesResxFiles Include="Properties\**\*.resx"/>
+    <ObjPropertiesResxStampFiles Include="@(PropertiesResxFiles -> 'obj\%(RelativeDir)%(FileName)%(Extension).reforma')"/>
+  </ItemGroup>
+  <Target Name="ResxReForma"
+      BeforeTargets="Build"
+      Inputs="@(PropertiesResxFiles)"
+      Outputs="@(ObjPropertiesResxStampFiles)">
+    <ResxReFormaTask Files="@(PropertiesResxFiles)" TargetFiles="@(ObjPropertiesResxStampFiles)"/>
+  </Target>
+</Project>
