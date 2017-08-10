@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>C:\Solutions\ResXReforma\NuGet\tools\core\</OutputPath>
+    <OutputPath>..\NuGet\tools\core\</OutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>C:\Solutions\ResXReforma\NuGet\tools\core\</OutputPath>
+    <OutputPath>..\NuGet\tools\core\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
